@@ -1,0 +1,30 @@
+else
+{
+}
+}
+System.out.println("Element found at "+in);
+void print()
+{
+Scanner nip=new Scanner(System.in);
+System.out.println("Enter the starting charecter to print strings");
+char inputc=nip.next().charAt(0);
+String strc=Character.toString(inputc);
+System.out.println("String starting with character "+strc);
+for(int i=0;i<list.size();i++)
+{
+if(list.get(i).startsWith(strc))
+{
+System.out.println(list.get(i));
+}
+}
+}
+public static void main(String args[])
+{
+ArrayL obj=new ArrayL();
+obj.arraydisplay();
+obj.appendatend();
+obj.insertatpos();
+obj.searchele();
+obj.print();
+}
+} 
