@@ -18,5 +18,6 @@ break;
 if(flag==1)
 System.out.println("The given number is Not a Prime");
 else
+System.out.println("The given number is Prime");
 }
 } 
